@@ -1,0 +1,21 @@
+{
+    "name": "vitagon/serializer-bug",
+    "autoload": {
+        "psr-4": {
+            "Vitagon\\SerializerBug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitalii Goncharov",
+            "email": "vit4gon@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "^5.3",
+        "symfony/property-info": "^5.3",
+        "phpdocumentor/reflection-docblock": "^5.3",
+        "symfony/property-access": "^5.3",
+        "symfony/yaml": "^5.3"
+    }
+}
